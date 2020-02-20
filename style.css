@@ -1,66 +1,95 @@
-
-.social-media-icon-container {
-  display: flex;
+body {
+  margin: 0px;
 }
 
-.social-media-icon {
-  width: 40px;
-  height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
+.social-media-icon-container {
+  display: flex;
 }
 
-#instagram-icon {
-  padding-left: 0px;
+.social-media-icon {
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-#facebook-icon {
-  padding-right: 0px;
+#instagram-icon {
+  padding-left: 0px;
 }
 
-
-
-.sign-in-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-family: "futura";
-  color: white;
-}
-
-#sign-in-icon {
-  width: 40px;
-}
-
-.cart-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center; 
-  font-family: "futura";
-  color: white;
-}
-#cart-icon {
-  width: 40px;
-  padding-right: 5px;
+#facebook-icon {
+  padding-right: 0px;
 }
 
 
 
-
-
-.header-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #32466B;
-  height: 75px;
-  padding-left: 50px;
-  padding-right: 50px;
+.sign-in-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "futura";
+  color: white;
 }
 
-#header-rhs {
-  width: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+#sign-in-icon {
+  width: 40px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  font-family: "futura";
+  color: white;
+}
+#cart-icon {
+  width: 40px;
+  padding-right: 5px;
+}
+
+
+
+
+#site-search-bar {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#site-search-bar > button {
+  width: 50px;
+  border-radius: 35px 0px 0px 35px
+}
+
+
+#search-bar {
+  height: 50px;
+  width: 600px;
+  border-radius: 0px 35px 35px 0px;
+  font-size: 30px;
+  color: #707070;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #32466B;
+  height: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#header-rhs {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
