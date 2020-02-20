@@ -22,23 +22,24 @@ body {
   padding-right: 0px;
 }
 
-.sign-in-container {
+.sign-in-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "futura";
+  font-family: 'futura';
   color: white;
 }
+
 
 #sign-in-icon {
   width: 40px;
 }
 
-.cart-container {
+.cart-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-family: "futura";
+  font-family: 'futura';
   color: white;
 }
 
