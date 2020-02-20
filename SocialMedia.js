@@ -9,7 +9,7 @@ const socialMediaArr = [
 
 const SocialMedia = () => {
   return (
-    <section>
+    <section class = "social-media-icon-container">
       {socialMediaArr.map(item => {
         return <Icon {...item} />
         })}

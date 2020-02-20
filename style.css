@@ -1,3 +1,18 @@
-h1, p {
-  font-family: Lato;
+
+.social-media-icon-container {
+  display: flex;
+}
+
+.social-media-icon {
+  width: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#instagram-icon {
+  padding-left: 0px;
+}
+
+#facebook-icon {
+  padding-right: 0px;
 }
