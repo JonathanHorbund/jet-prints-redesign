@@ -1,18 +1,20 @@
 import React from 'react';
 import SocialMedia from './SocialMedia'
 import Cart from './Cart'
-import SignIn from './SignIn'
+import SignIn from './SignIn'
+import SiteSearchBar from './SiteSearchBar'
 
 let cartCount = {numItems: "0"}
 
 const HeaderTop = () => {
   return (
-    <section class="header-top">
+    <section class="header-top">
       <SocialMedia />
-      <section id="header-rhs">
-        <SignIn />
-        <Cart {...cartCount}/>
-      </section>
+      <SiteSearchBar />
+      <section id="header-rhs">
+        <SignIn />
+        <Cart {...cartCount}/>
+      </section>
     </section>
   )
 }
