@@ -19,7 +19,15 @@
 
 
 
+.sign-in-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+#sign-in-icon {
+  width: 40px;
+}
 
 .cart-container {
   display: flex;
@@ -40,4 +48,11 @@
   justify-content: space-between;
   background: #32466B;
   height: 75px;
+}
+
+#header-rhs {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

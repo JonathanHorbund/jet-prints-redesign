@@ -9,8 +9,10 @@ const HeaderTop = () => {
   return (
     <section class="header-top">
       <SocialMedia />
-      <SignIn />
-      <Cart {...cartCount}/>
+      <section id="header-rhs">
+        <SignIn />
+        <Cart {...cartCount}/>
+      </section>
     </section>
   )
 }
