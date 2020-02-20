@@ -6,7 +6,7 @@ let cartCount = {numItems: "0"}
 
 const HeaderTop = () => {
   return (
-    <section>
+    <section class="header-top">
       <SocialMedia />
       <Cart {...cartCount}/>
     </section>
