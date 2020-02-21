@@ -5,8 +5,3 @@ const Icon = (props) => {
 }
 
 export default Icon;
-
-
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>
-}
