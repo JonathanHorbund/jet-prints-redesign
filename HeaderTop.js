@@ -8,7 +8,7 @@ let cartCount = {numItems: "0"}
 
 const HeaderTop = () => {
   return (
-    <section class="header-top">
+    <section className="header-top">
       <SocialMedia />
       <SiteSearchBar />
       <section id="header-rhs">
